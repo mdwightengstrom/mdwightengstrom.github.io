@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Slabo+27px&display=swap');
+
 #content {
 
     max-width: 1600px;
@@ -28,6 +30,9 @@ nav a {
 }
 body {
     background-color: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+
 }
 header {
     background-color:#1098F7;
@@ -35,16 +40,29 @@ header {
 nav a:hover {
     background-color: #564592;
     color: white;
+    padding: 35px;
+    text-decoration: none;
 }
 .book{
     background-color: #FFFFFF;
     color: navy;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5p; 
+    
 }
 .join{
+    margin: auto;
     background-color: #FFFFFF; 
     color: navy;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;  
+
 }
 .book:hover{
     background-color: #FFFFFF; 
@@ -59,22 +77,36 @@ nav a:hover {
 } 
 .msg{
     background-color:#CA7DF9;
+    line-height: 1.5em;
+    padding: 35px;
 }  
 footer{
     background-color:#CA7DF9;
+    padding: 25px 50px;
+    margin-top: 200px;
+    text-decoration: none;
+
+
 }
 .home-title{
     color: navy;
+    margin-top: 10px;
+    font-family:'Bebas Neue', Courier, monospace;
+    font-size: 2em;
 }
 .msg h2{
     color: navy;
+    text-align: center;
 }
 .msg p{
+    text-align: center;
     color: navy;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: navy;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a{
     color: navy;
@@ -88,7 +120,43 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width:100%;
+}
+body{
+    font-family:'Slabo', Courier, monospace;
+    font-size: 22px;
+}
+.msg h2{
+    font-family:'Bebas Neue', Courier, monospace;
+}
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
+   
+}
+.second-button-box{
+    text-align: center;
 }
